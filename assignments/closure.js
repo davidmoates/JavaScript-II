@@ -1,5 +1,19 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+const timesTwo = () => {
+  let twoTwo = 1;
+  return function(){
+    twoTwo = twoTwo * 2;
+    return twoTwo;
+  }
+};
+const double = timesTwo();
+console.log(double());
+console.log(double());
+console.log(double());
+console.log(double());
+console.log(double());
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
